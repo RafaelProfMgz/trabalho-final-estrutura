@@ -59,7 +59,7 @@ os dados são modelados como um **grafo**, onde **usuários e itens são nós** 
 > caminhos, passeios aleatórios ou aprendizado de representações (embeddings) sobre a estrutura.*
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R1.png" alt="Grafo bipartido usuário–item" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R1.png" alt="Grafo bipartido usuário–item" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R1 — Grafo bipartido usuário–item.</strong></figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ Restart** (a cada passo há uma chance de "voltar" ao usuário de origem, manten
 próximas a ele).
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R2.png" alt="Passeio aleatório num grafo de recomendação" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R2.png" alt="Passeio aleatório num grafo de recomendação" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R2 — Passeio aleatório (random walk) num grafo de recomendação.</strong></figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ Isso captura relações de **alta ordem** automaticamente. Modelos famosos:
   recomendações explicáveis.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R3.png" alt="Message passing em uma Graph Neural Network" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R3.png" alt="Message passing em uma Graph Neural Network" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R3 — Message passing em uma Graph Neural Network.</strong></figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ colaborativa tradicional não captura.
 ## I.2.4 O fluxo completo
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R4.png" alt="Pipeline de um recomendador baseado em grafo" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R4.png" alt="Pipeline de um recomendador baseado em grafo" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R4 — Pipeline de um recomendador baseado em grafo.</strong></figcaption>
 </figure>
 
@@ -168,7 +168,7 @@ realimentam o grafo, melhorando as próximas recomendações.
 | **OpenNE / GraphVite** | Python | MIT/Apache | Embeddings de grafo (DeepWalk, node2vec, LINE) em escala |
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R5.png" alt="Principais bibliotecas de GNN e recomendação" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R5.png" alt="Principais bibliotecas de GNN e recomendação" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R5 — Logos/stack das principais bibliotecas de GNN e recomendação.</strong></figcaption>
 </figure>
 
@@ -211,7 +211,7 @@ próximos é feita com bancos vetoriais (FAISS, Milvus).
   confiança do usuário.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R6.png" alt="Recomendação em rede social (People You May Know)" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R6.png" alt="Recomendação em rede social (People You May Know)" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R6 — Recomendação em rede social (People You May Know).</strong></figcaption>
 </figure>
 

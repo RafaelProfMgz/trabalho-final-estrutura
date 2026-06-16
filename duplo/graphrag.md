@@ -74,7 +74,7 @@ os dados são modelados como um **grafo**, onde **usuários e itens são nós** 
 > caminhos, passeios aleatórios ou aprendizado de representações (embeddings) sobre a estrutura.*
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R1.png" alt="Grafo bipartido usuário–item" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R1.png" alt="Grafo bipartido usuário–item" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R1 — Grafo bipartido usuário–item.</strong></figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ Restart** (a cada passo há uma chance de "voltar" ao usuário de origem, manten
 próximas a ele).
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R2.png" alt="Passeio aleatório (random walk) num grafo de recomendação" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R2.png" alt="Passeio aleatório (random walk) num grafo de recomendação" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R2 — Passeio aleatório (random walk) num grafo de recomendação.</strong></figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ Isso captura relações de **alta ordem** automaticamente. Modelos famosos:
   recomendações explicáveis.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R3.png" alt="Message passing em uma Graph Neural Network" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R3.png" alt="Message passing em uma Graph Neural Network" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R3 — Message passing em uma Graph Neural Network.</strong></figcaption>
 </figure>
 
@@ -149,7 +149,7 @@ A **Figura R3** explica o mecanismo central das GNNs. Em cada camada, um nó atu
 ## I.2.4 O fluxo completo
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R4.png" alt="Pipeline de um recomendador baseado em grafo" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R4.png" alt="Pipeline de um recomendador baseado em grafo" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R4 — Pipeline de um recomendador baseado em grafo.</strong></figcaption>
 </figure>
 
@@ -172,7 +172,7 @@ A **Figura R4** resume o funcionamento de ponta a ponta. As interações viram o
 | **OpenNE / GraphVite** | Python | MIT/Apache | Embeddings de grafo (DeepWalk, node2vec, LINE) em escala |
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R5.png" alt="Logos/stack das principais bibliotecas de GNN e recomendação" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R5.png" alt="Logos/stack das principais bibliotecas de GNN e recomendação" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R5 — Logos/stack das principais bibliotecas de GNN e recomendação.</strong></figcaption>
 </figure>
 
@@ -212,7 +212,7 @@ próximos é feita com bancos vetoriais (FAISS, Milvus).
   confiança do usuário.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%20R6.png" alt="Recomendação em rede social (People You May Know)" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%20R6.png" alt="Recomendação em rede social (People You May Know)" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura R6 — Recomendação em rede social (People You May Know).</strong></figcaption>
 </figure>
 
@@ -242,7 +242,7 @@ por Lewis et al. (2020), resolve boa parte desses problemas. A ideia central é 
 fornece ao LLM como contexto.** O modelo passa a responder "com o livro aberto" em vez de "de cabeça".
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%201.png" alt="Diagrama clássico do pipeline RAG" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%201.png" alt="Diagrama clássico do pipeline RAG" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 1 — Diagrama clássico do pipeline RAG.</strong></figcaption>
 </figure>
 
@@ -261,7 +261,7 @@ Na hora da pergunta, ela também vira um vetor, e o sistema busca os *chunks* cu
 **similares** (geralmente por *similaridade do cosseno*). Esses trechos são injetados no *prompt*.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%202.png" alt="Espaço de embeddings / similaridade vetorial" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%202.png" alt="Espaço de embeddings / similaridade vetorial" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 2 — Espaço de embeddings / similaridade vetorial.</strong></figcaption>
 </figure>
 
@@ -296,7 +296,7 @@ de tratar o conhecimento como uma "pilha" de trechos soltos, ele o organiza em u
 > **entidades e as relações entre elas**, possibilitando raciocínio sobre conexões e visão global.*
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%203.png" alt="Exemplo de grafo de conhecimento" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%203.png" alt="Exemplo de grafo de conhecimento" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 3 — Exemplo de grafo de conhecimento.</strong></figcaption>
 </figure>
 
@@ -324,7 +324,7 @@ O funcionamento de um sistema GraphRAG se divide em **duas grandes fases**: a **
 (construção do grafo, feita uma vez, *offline*) e a **consulta** (responder perguntas, em tempo real).
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%204.png" alt="Visão geral das duas fases do GraphRAG" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%204.png" alt="Visão geral das duas fases do GraphRAG" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 4 — Visão geral das duas fases do GraphRAG.</strong></figcaption>
 </figure>
 
@@ -347,7 +347,7 @@ A saída costuma ser uma lista de **triplas** no formato **(sujeito, predicado, 
 por exemplo, `(João, é_dono_de, Apto 101)`.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%205.png" alt="Extração de triplas a partir de texto" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%205.png" alt="Extração de triplas a partir de texto" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 5 — Extração de triplas a partir de texto.</strong></figcaption>
 </figure>
 
@@ -365,7 +365,7 @@ densamente conectadas** do grafo e as agrupam em **comunidades** (clusters temá
 **hierarquia**: comunidades pequenas dentro de comunidades maiores.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%206.png" alt="Detecção de comunidades em um grafo" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%206.png" alt="Detecção de comunidades em um grafo" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 6 — Detecção de comunidades em um grafo.</strong></figcaption>
 </figure>
 
@@ -382,7 +382,7 @@ vetorial. Assim, o sistema combina **busca estrutural** (no grafo) com **busca s
 — a abordagem **híbrida**.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%207.png" alt="Pipeline completo de indexação do GraphRAG" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%207.png" alt="Pipeline completo de indexação do GraphRAG" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 7 — Pipeline completo de indexação do GraphRAG.</strong></figcaption>
 </figure>
 
@@ -407,7 +407,7 @@ Para perguntas **amplas / de síntese**. O sistema usa os **resumos de comunidad
 - **Reduce:** as respostas parciais são **combinadas** em uma resposta final coerente.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%208.png" alt="Busca Local x Busca Global" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%208.png" alt="Busca Local x Busca Global" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 8 — Busca Local x Busca Global.</strong></figcaption>
 </figure>
 
@@ -422,7 +422,7 @@ No grafo, basta percorrer as arestas:
 `Imóvel X → (vendido por) → Corretor → (atende) → Clientes → (possuem) → Contratos → (vencimento) → mês`.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%209.png" alt="Caminho de raciocínio multi-hop no grafo" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%209.png" alt="Caminho de raciocínio multi-hop no grafo" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 9 — Caminho de raciocínio multi-hop no grafo.</strong></figcaption>
 </figure>
 
@@ -456,7 +456,7 @@ Outro framework de destaque (MIT). Traz o **`KnowledgeGraphIndex`** e, mais rece
 propriedades nos nós e arestas) com poucas linhas de código, integrando grafo + busca vetorial.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%2010.png" alt="Logos / posicionamento dos principais frameworks" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%2010.png" alt="Logos / posicionamento dos principais frameworks" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 10 — Logos / posicionamento dos principais frameworks.</strong></figcaption>
 </figure>
 
@@ -474,7 +474,7 @@ A **Figura 10** ajuda a situar as ferramentas. Microsoft GraphRAG, LangChain e L
   PostgreSQL** (Apache 2.0). Útil para quem já usa Postgres e não quer um banco separado.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%2011.png" alt="Modelo de grafo de propriedades (property graph)" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%2011.png" alt="Modelo de grafo de propriedades (property graph)" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 11 — Modelo de grafo de propriedades (property graph).</strong></figcaption>
 </figure>
 
@@ -499,7 +499,7 @@ Meta para busca de vetores).
 ## 3.5 Pilha (stack) típica de um projeto GraphRAG
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%2012.png" alt="Arquitetura de referência de uma stack GraphRAG" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%2012.png" alt="Arquitetura de referência de uma stack GraphRAG" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 12 — Arquitetura de referência de uma stack GraphRAG.</strong></figcaption>
 </figure>
 
@@ -522,7 +522,7 @@ artigos científicos formam uma teia gigantesca de relações. Grafos de conheci
 - **Apoio ao diagnóstico:** relacionar sintomas a possíveis condições e exames.
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%2013.png" alt="Grafo de conhecimento biomédico" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%2013.png" alt="Grafo de conhecimento biomédico" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 13 — Grafo de conhecimento biomédico.</strong></figcaption>
 </figure>
 
@@ -537,7 +537,7 @@ busca vetorial jamais perceberia. O GraphRAG permite a um analista perguntar em 
 "mostre as conexões entre esta conta sinalizada e contas já marcadas como fraudulentas".
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%2014.png" alt="Detecção de fraude por análise de grafo" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%2014.png" alt="Detecção de fraude por análise de grafo" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 14 — Detecção de fraude por análise de grafo.</strong></figcaption>
 </figure>
 
@@ -580,7 +580,7 @@ perguntas relacionais hoje difíceis, como:
   locatários já atrasaram pagamento?"*
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%2015.png" alt="Grafo de conhecimento imobiliário" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%2015.png" alt="Grafo de conhecimento imobiliário" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 15 — Grafo de conhecimento imobiliário.</strong></figcaption>
 </figure>
 
@@ -609,7 +609,7 @@ recuperação por um **grafo de conhecimento**. O comparativo abaixo resume as p
 | Complexidade de infraestrutura | Menor | Maior (exige banco de grafos) |
 
 <figure style="text-align:center; margin:1em 0; page-break-inside:avoid;">
-  <img src="FIGURA%2016.png" alt="Comparativo visual RAG vetorial x GraphRAG" style="max-width:100%; max-height:10cm;" />
+  <img src="images/FIGURA%2016.png" alt="Comparativo visual RAG vetorial x GraphRAG" style="max-width:100%; max-height:10cm;" />
   <figcaption><strong>Figura 16 — Comparativo visual RAG vetorial x GraphRAG.</strong></figcaption>
 </figure>
 
