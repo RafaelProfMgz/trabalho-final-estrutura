@@ -22,27 +22,6 @@ bibliográficas.
 | **Curso** | Sistemas de Informação — 4º Período |
 | **Disciplina** | Estruturas de Dados — Atividade Avaliativa N3 |
 | **Professor** | Me. Cides S. Bezerra |
-| **Data** | 09 de junho de 2026 |
-
-## Estrutura do repositório
-
-O conteúdo está disponível em três versões, para atender qualquer formato de entrega:
-
-```
-.
-├── Sistemas de Recomendação baseados em Grafos/   # Apenas o Tema 1
-│   ├── recomendacao-grafos.md
-│   ├── recomendacao-grafos.pdf
-│   └── FIGURA R1..R6.png
-├── Sistemas GraphRAG/                             # Apenas o Tema 2
-│   ├── graphrag-tema.md
-│   ├── graphrag-tema.pdf
-│   └── FIGURA 1..16.png
-└── duplo/                                         # Os dois temas em um único PDF
-    ├── graphrag.md
-    ├── graphrag.pdf
-    └── FIGURA 1..16.png + FIGURA R1..R6.png
-```
 
 - **`duplo/`** — versão combinada, com os dois temas em **um único PDF** (formato recomendado pelo
   enunciado: "entregar um único PDF").
